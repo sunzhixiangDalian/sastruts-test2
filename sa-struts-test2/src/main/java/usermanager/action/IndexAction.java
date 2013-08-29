@@ -4,7 +4,7 @@ public class IndexAction {
 
     @Execute(validator = false)
     public String index() {
-        //aaaaaa
+        //this a test of GitHub push
         return "index.jsp";
     }
 }
