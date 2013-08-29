@@ -5,7 +5,6 @@
  */
 package usermanager.action;
 
-import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 
 public class BasicAction {

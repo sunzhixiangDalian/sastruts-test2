@@ -9,7 +9,6 @@ import org.seasar.struts.util.ResponseUtil;
 import org.seasar.extension.jdbc.JdbcManager;
 import usermanager.service.UserService;
 import usermanager.dto.UserDto;
-import usermanager.entity.User;
 import usermanager.form.UserManagerForm;
 
 public class UserManagerAction {
