@@ -22,13 +22,20 @@
         <style type="text/css">
 
         </style>
+          <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">  
+   
+    <!-- Custom styles for this template -->
+    <link href="../theme.css" rel="stylesheet">
     </head>
     <body> 
     
      <div id="main">            
             <div id="add" class="box box_1st">
-                <h4 class="box_title">
-                    <span>Add new User information</span>
+                <h4 class="panel panel-primary">
+                    <span class="panel-heading">Add new User information</span>
                 </h4> 
                 <div class="context">
                 
@@ -72,8 +79,8 @@
             </div>                    
 
             <div class="box">
-                <h4 class="box_title">
-                    <span>Search </span>
+                <h4 class="panel panel-primary">
+                    <span class="panel-heading">Search User information</span>
                 </h4> 
                 <div class="context"> 
                
@@ -124,9 +131,12 @@
                 </div>
             </div>
  <div id="manager" class="box">
-                <h4 class="box_title">
+  				<h4 class="panel panel-primary">
+                    <span class="panel-heading">User information Managementn</span>
+                </h4> 
+               <!--  <h4 class="box_title">
                     <span>User information Management</span>
-                </h4>
+                </h4> -->
                 <div class="context">
                     <iframe id="list_frame" name="list_frame" src="../userSearch" 
                             width="100%" height="200"  scrolling="no" frameborder="0" marginwidth="0" marginheight="0">
@@ -148,7 +158,17 @@
            
         <c:set var="sexMale" value="<%= UserMetaData.SEX_MALE%>"/>
         
-        
+        <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/holder.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script  src="${initParam.webUrl}/js/holder.js"></script>
+    
+     <script  src="${initParam.webUrl}/jquery/jquery-1.7.2.min.js"></script>
+	 <script  src="${initParam.webUrl}/js/all.js"></script>
+	 <script  src="${initParam.webUrl}/js/metadata.js"></script>
         
     </body>
 </html>

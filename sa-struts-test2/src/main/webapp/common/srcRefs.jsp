@@ -14,4 +14,3 @@
 <link href="${initParam.webUrl}/css/common.css" rel="stylesheet" />
 <link href="${initParam.webUrl}/css/ui.css" rel="stylesheet" />
 
-

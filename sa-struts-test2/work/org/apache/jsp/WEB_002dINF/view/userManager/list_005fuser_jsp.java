@@ -182,13 +182,20 @@ static {
       out.write("        <style type=\"text/css\">\n");
       out.write("\n");
       out.write("        </style>\n");
+      out.write("          <link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">\n");
+      out.write("\n");
+      out.write("    <!-- Optional theme -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">  \n");
+      out.write("   \n");
+      out.write("    <!-- Custom styles for this template -->\n");
+      out.write("    <link href=\"../theme.css\" rel=\"stylesheet\">\n");
       out.write("    </head>\n");
       out.write("    <body> \n");
       out.write("    \n");
       out.write("     <div id=\"main\">            \n");
       out.write("            <div id=\"add\" class=\"box box_1st\">\n");
-      out.write("                <h4 class=\"box_title\">\n");
-      out.write("                    <span>Add new User information</span>\n");
+      out.write("                <h4 class=\"panel panel-primary\">\n");
+      out.write("                    <span class=\"panel-heading\">Add new User information</span>\n");
       out.write("                </h4> \n");
       out.write("                <div class=\"context\">\n");
       out.write("                \n");
@@ -232,8 +239,8 @@ static {
       out.write("            </div>                    \n");
       out.write("\n");
       out.write("            <div class=\"box\">\n");
-      out.write("                <h4 class=\"box_title\">\n");
-      out.write("                    <span>Search </span>\n");
+      out.write("                <h4 class=\"panel panel-primary\">\n");
+      out.write("                    <span class=\"panel-heading\">Search User information</span>\n");
       out.write("                </h4> \n");
       out.write("                <div class=\"context\"> \n");
       out.write("               \n");
@@ -290,9 +297,12 @@ static {
       out.write("                </div>\n");
       out.write("            </div>\n");
       out.write(" <div id=\"manager\" class=\"box\">\n");
-      out.write("                <h4 class=\"box_title\">\n");
+      out.write("  \t\t\t\t<h4 class=\"panel panel-primary\">\n");
+      out.write("                    <span class=\"panel-heading\">User information Managementn</span>\n");
+      out.write("                </h4> \n");
+      out.write("               <!--  <h4 class=\"box_title\">\n");
       out.write("                    <span>User information Management</span>\n");
-      out.write("                </h4>\n");
+      out.write("                </h4> -->\n");
       out.write("                <div class=\"context\">\n");
       out.write("                    <iframe id=\"list_frame\" name=\"list_frame\" src=\"../userSearch\" \n");
       out.write("                            width=\"100%\" height=\"200\"  scrolling=\"no\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\">\n");
@@ -317,9 +327,9 @@ static {
       org.apache.taglibs.standard.tag.rt.core.SetTag _jspx_th_c_005fset_005f0 = (org.apache.taglibs.standard.tag.rt.core.SetTag) _005fjspx_005ftagPool_005fc_005fset_0026_005fvar_005fvalue_005fnobody.get(org.apache.taglibs.standard.tag.rt.core.SetTag.class);
       _jspx_th_c_005fset_005f0.setPageContext(_jspx_page_context);
       _jspx_th_c_005fset_005f0.setParent(null);
-      // /WEB-INF/view/userManager/list_user.jsp(149,8) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      // /WEB-INF/view/userManager/list_user.jsp(159,8) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
       _jspx_th_c_005fset_005f0.setVar("sexMale");
-      // /WEB-INF/view/userManager/list_user.jsp(149,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      // /WEB-INF/view/userManager/list_user.jsp(159,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
       _jspx_th_c_005fset_005f0.setValue( UserMetaData.SEX_MALE);
       int _jspx_eval_c_005fset_005f0 = _jspx_th_c_005fset_005f0.doStartTag();
       if (_jspx_th_c_005fset_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -329,7 +339,25 @@ static {
       _005fjspx_005ftagPool_005fc_005fset_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_c_005fset_005f0);
       out.write("\n");
       out.write("        \n");
-      out.write("        \n");
+      out.write("        <!-- Placed at the end of the document so the pages load faster -->\n");
+      out.write("    <script src=\"../../assets/js/holder.js\"></script>\n");
+      out.write("    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n");
+      out.write("    <script src=\"//code.jquery.com/jquery.js\"></script>\n");
+      out.write("    <!-- Latest compiled and minified JavaScript -->\n");
+      out.write("    <script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>\n");
+      out.write("    <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/holder.js\"></script>\n");
+      out.write("    \n");
+      out.write("     <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/jquery/jquery-1.7.2.min.js\"></script>\n");
+      out.write("\t <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/all.js\"></script>\n");
+      out.write("\t <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/metadata.js\"></script>\n");
       out.write("        \n");
       out.write("    </body>\n");
       out.write("</html>\n");
@@ -354,15 +382,15 @@ static {
     org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f0 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fvalue_005fstyleId_005fstyleClass_005fproperty_005fmaxlength_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
     _jspx_th_html_005ftext_005f0.setPageContext(_jspx_page_context);
     _jspx_th_html_005ftext_005f0.setParent(null);
-    // /WEB-INF/view/userManager/list_user.jsp(88,33) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(95,33) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f0.setProperty("name");
-    // /WEB-INF/view/userManager/list_user.jsp(88,33) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(95,33) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f0.setStyleId("namesearch");
-    // /WEB-INF/view/userManager/list_user.jsp(88,33) name = styleClass type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(95,33) name = styleClass type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f0.setStyleClass("ui-input-basic");
-    // /WEB-INF/view/userManager/list_user.jsp(88,33) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(95,33) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f0.setValue("");
-    // /WEB-INF/view/userManager/list_user.jsp(88,33) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(95,33) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f0.setMaxlength("50");
     int _jspx_eval_html_005ftext_005f0 = _jspx_th_html_005ftext_005f0.doStartTag();
     if (_jspx_th_html_005ftext_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -381,15 +409,15 @@ static {
     org.apache.struts.taglib.html.TextTag _jspx_th_html_005ftext_005f1 = (org.apache.struts.taglib.html.TextTag) _005fjspx_005ftagPool_005fhtml_005ftext_0026_005fvalue_005fstyleId_005fstyleClass_005fproperty_005fmaxlength_005fnobody.get(org.apache.struts.taglib.html.TextTag.class);
     _jspx_th_html_005ftext_005f1.setPageContext(_jspx_page_context);
     _jspx_th_html_005ftext_005f1.setParent(null);
-    // /WEB-INF/view/userManager/list_user.jsp(108,32) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(115,32) name = property type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f1.setProperty("addr");
-    // /WEB-INF/view/userManager/list_user.jsp(108,32) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(115,32) name = styleId type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f1.setStyleId("addrsearch");
-    // /WEB-INF/view/userManager/list_user.jsp(108,32) name = styleClass type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(115,32) name = styleClass type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f1.setStyleClass("ui-input-basic");
-    // /WEB-INF/view/userManager/list_user.jsp(108,32) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(115,32) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f1.setValue("");
-    // /WEB-INF/view/userManager/list_user.jsp(108,32) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userManager/list_user.jsp(115,32) name = maxlength type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_html_005ftext_005f1.setMaxlength("50");
     int _jspx_eval_html_005ftext_005f1 = _jspx_th_html_005ftext_005f1.doStartTag();
     if (_jspx_th_html_005ftext_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {

@@ -18,7 +18,7 @@
     </head>
     <body>
         <h1>Assignment課題<br>
-　                         SA-Strutsを利用した簡単なWebアプリケーションの作成</h1>
+　                      SA-Strutsを利用した簡単なWebアプリケーションの作成</h1>
         <h3><a href="userManager">Enter into the Web APP</a></h3>
         <h4>Author : Sun zhixiang (Andy)</h4>
         <h4>Email  : sunzhixiang.dalian@gmail.com</h4>

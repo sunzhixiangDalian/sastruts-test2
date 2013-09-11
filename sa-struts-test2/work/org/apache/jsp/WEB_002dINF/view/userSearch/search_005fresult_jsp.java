@@ -136,7 +136,6 @@ static {
       out.write("/css/ui.css\" rel=\"stylesheet\" />\n");
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("        <script src=\"");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
       out.write("/js/listManager.js\"></script>\n");
@@ -146,6 +145,13 @@ static {
       out.write("        <style type=\"text/css\">\n");
       out.write("\n");
       out.write("        </style>\n");
+      out.write("          <link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">\n");
+      out.write("\n");
+      out.write("    <!-- Optional theme -->\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">  \n");
+      out.write("   \n");
+      out.write("    <!-- Custom styles for this template -->\n");
+      out.write("    <link href=\"theme.css\" rel=\"stylesheet\">\n");
       out.write("    </head>\n");
       out.write("    <body>        \n");
       out.write("        ");
@@ -153,9 +159,9 @@ static {
       org.apache.taglibs.standard.tag.rt.core.SetTag _jspx_th_c_005fset_005f0 = (org.apache.taglibs.standard.tag.rt.core.SetTag) _005fjspx_005ftagPool_005fc_005fset_0026_005fvar_005fvalue_005fnobody.get(org.apache.taglibs.standard.tag.rt.core.SetTag.class);
       _jspx_th_c_005fset_005f0.setPageContext(_jspx_page_context);
       _jspx_th_c_005fset_005f0.setParent(null);
-      // /WEB-INF/view/userSearch/search_result.jsp(24,8) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      // /WEB-INF/view/userSearch/search_result.jsp(31,8) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
       _jspx_th_c_005fset_005f0.setVar("sexMale");
-      // /WEB-INF/view/userSearch/search_result.jsp(24,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+      // /WEB-INF/view/userSearch/search_result.jsp(31,8) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
       _jspx_th_c_005fset_005f0.setValue( UserMetaData.SEX_MALE);
       int _jspx_eval_c_005fset_005f0 = _jspx_th_c_005fset_005f0.doStartTag();
       if (_jspx_th_c_005fset_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -263,6 +269,29 @@ static {
       out.write("               \n");
       out.write("            });\n");
       out.write("        </script>\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("         <!-- Bootstrap core JavaScript\n");
+      out.write("    ================================================== -->\n");
+      out.write("    <!-- Placed at the end of the document so the pages load faster -->\n");
+      out.write("    <script src=\"../../assets/js/holder.js\"></script>\n");
+      out.write("    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n");
+      out.write("    <script src=\"//code.jquery.com/jquery.js\"></script>\n");
+      out.write("    <!-- Latest compiled and minified JavaScript -->\n");
+      out.write("    <script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>\n");
+      out.write("    <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/holder.js\"></script>\n");
+      out.write("    \n");
+      out.write("     <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/jquery/jquery-1.7.2.min.js\"></script>\n");
+      out.write("\t <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/all.js\"></script>\n");
+      out.write("\t <script  src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${initParam.webUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("/js/metadata.js\"></script>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
@@ -286,7 +315,7 @@ static {
     org.apache.taglibs.standard.tag.rt.core.IfTag _jspx_th_c_005fif_005f0 = (org.apache.taglibs.standard.tag.rt.core.IfTag) _005fjspx_005ftagPool_005fc_005fif_0026_005ftest.get(org.apache.taglibs.standard.tag.rt.core.IfTag.class);
     _jspx_th_c_005fif_005f0.setPageContext(_jspx_page_context);
     _jspx_th_c_005fif_005f0.setParent(null);
-    // /WEB-INF/view/userSearch/search_result.jsp(41,20) name = test type = boolean reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userSearch/search_result.jsp(48,20) name = test type = boolean reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fif_005f0.setTest(((java.lang.Boolean) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${page.itemCount==0}", java.lang.Boolean.class, (PageContext)_jspx_page_context, null, false)).booleanValue());
     int _jspx_eval_c_005fif_005f0 = _jspx_th_c_005fif_005f0.doStartTag();
     if (_jspx_eval_c_005fif_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
@@ -317,11 +346,11 @@ static {
     org.apache.taglibs.standard.tag.rt.core.ForEachTag _jspx_th_c_005fforEach_005f0 = (org.apache.taglibs.standard.tag.rt.core.ForEachTag) _005fjspx_005ftagPool_005fc_005fforEach_0026_005fvarStatus_005fvar_005fitems.get(org.apache.taglibs.standard.tag.rt.core.ForEachTag.class);
     _jspx_th_c_005fforEach_005f0.setPageContext(_jspx_page_context);
     _jspx_th_c_005fforEach_005f0.setParent(null);
-    // /WEB-INF/view/userSearch/search_result.jsp(47,20) name = items type = java.lang.Object reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userSearch/search_result.jsp(54,20) name = items type = java.lang.Object reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fforEach_005f0.setItems((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${data}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/view/userSearch/search_result.jsp(47,20) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userSearch/search_result.jsp(54,20) name = var type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fforEach_005f0.setVar("item");
-    // /WEB-INF/view/userSearch/search_result.jsp(47,20) name = varStatus type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userSearch/search_result.jsp(54,20) name = varStatus type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fforEach_005f0.setVarStatus("status");
     int[] _jspx_push_body_count_c_005fforEach_005f0 = new int[] { 0 };
     try {
@@ -396,8 +425,8 @@ static {
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${f:h(item.UAddr)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0, false));
           out.write("</td>                          \n");
           out.write("                            <td>\n");
-          out.write("                                <button type=\"button\" class=\"ui-button-narrowest edit_prepare\">更新</button>\n");
-          out.write("                                <button type=\"button\" class=\"ui-button-narrowest edit_delete\" >削除</button>\n");
+          out.write("                                <button type=\"button\" class=\"btn btn-primary\">更新</button>\n");
+          out.write("                                <button type=\"button\" class=\"btn btn-danger\" >削除</button>\n");
           out.write("                            </td>\n");
           out.write("                        </tr>\n");
           out.write("                    ");
@@ -462,7 +491,7 @@ static {
     org.apache.taglibs.standard.tag.rt.core.WhenTag _jspx_th_c_005fwhen_005f0 = (org.apache.taglibs.standard.tag.rt.core.WhenTag) _005fjspx_005ftagPool_005fc_005fwhen_0026_005ftest.get(org.apache.taglibs.standard.tag.rt.core.WhenTag.class);
     _jspx_th_c_005fwhen_005f0.setPageContext(_jspx_page_context);
     _jspx_th_c_005fwhen_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_005fchoose_005f0);
-    // /WEB-INF/view/userSearch/search_result.jsp(82,36) name = test type = boolean reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/userSearch/search_result.jsp(89,36) name = test type = boolean reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_c_005fwhen_005f0.setTest(((java.lang.Boolean) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${item.USex==sexMale}", java.lang.Boolean.class, (PageContext)_jspx_page_context, null, false)).booleanValue());
     int _jspx_eval_c_005fwhen_005f0 = _jspx_th_c_005fwhen_005f0.doStartTag();
     if (_jspx_eval_c_005fwhen_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {

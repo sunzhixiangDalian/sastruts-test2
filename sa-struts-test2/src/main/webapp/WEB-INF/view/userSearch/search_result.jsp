@@ -19,6 +19,13 @@
         <style type="text/css">
 
         </style>
+          <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">  
+   
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
     </head>
     <body>        
         <c:set var="sexMale" value="<%= UserMetaData.SEX_MALE%>"/>
@@ -86,8 +93,8 @@
                             <td>${f:h(item.UAge)}</td>
                             <td>${f:h(item.UAddr)}</td>                          
                             <td>
-                                <button type="button" class="ui-button-narrowest edit_prepare">更新</button>
-                                <button type="button" class="ui-button-narrowest edit_delete" >削除</button>
+                                <button type="button" class="btn btn-primary">更新</button>
+                                <button type="button" class="btn btn-danger" >削除</button>
                             </td>
                         </tr>
                     </c:forEach> 
@@ -127,5 +134,20 @@
                
             });
         </script>
+        
+        
+         <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/holder.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script  src="${initParam.webUrl}/js/holder.js"></script>
+    
+     <script  src="${initParam.webUrl}/jquery/jquery-1.7.2.min.js"></script>
+	 <script  src="${initParam.webUrl}/js/all.js"></script>
+	 <script  src="${initParam.webUrl}/js/metadata.js"></script>
     </body>
 </html>
